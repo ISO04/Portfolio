@@ -1,0 +1,88 @@
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  text-align: left;
+}
+
+h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.intro {
+  color: #94a3b8;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  color: #e2e8f0;
+}
+
+.phases {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.phase {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #334155;
+  border-radius: 10px;
+  background: #1e293b;
+}
+
+.phase h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.phase p {
+  margin: 0.2rem 0 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.phase div {
+  flex: 1;
+}
+
+.num {
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #334155;
+  font-weight: bold;
+}
+
+.etat {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64748b;
+}
+
+.phase.fait {
+  border-color: #34d399;
+}
+
+.phase.fait .etat {
+  color: #34d399;
+}
+
+.phase.en-cours {
+  border-color: #facc15;
+}
+
+.phase.en-cours .etat {
+  color: #facc15;
+}
